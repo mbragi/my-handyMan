@@ -1,0 +1,52 @@
+.card-container{
+    background-color: transparent;
+	border: 0.5px solid #7f7f7f7f;
+    width: 13.5rem;
+	margin: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.image-container img{
+overflow: hidden;
+height: 200px;
+width: 100%;
+object-fit: cover;
+}
+
+.card-content{
+    margin: 0rem;
+    margin-top: 0.5rem;
+}
+
+h4{
+    margin: 0;
+    color: #000;
+    /* background-color: aqua; */
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container a:link {
+    text-decoration: none;
+    font-size: small;
+    padding-bottom: -100px;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .text p {
+      margin: 0;
+      font-size: small;
+      color: black;
+  }

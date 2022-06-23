@@ -1,0 +1,30 @@
+.Header {
+  @font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleopi.com/css2?family=roboto:ital,wght@1,300&display=swap");
+  }
+}
+/* .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center ;
+  width: 60vw;
+  height: 60vh;
+} */
+.responsive-searchbox {
+  display: flex;
+  justify-content: center;
+  height: 4.5rem;
+  padding-bottom: 30px;
+  /* background-color: aqua; */
+}
+@media screen and(max-width: 700px) {
+  .responsive-searchbox {
+    display: flex;
+    flex-wrap: wrap;
+    /* position: absolute; */
+    top: 120px;
+    padding-bottom: 40px;
+  }
+}

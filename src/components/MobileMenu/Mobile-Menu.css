@@ -1,0 +1,32 @@
+.menu-overlay {
+    position: fixed;
+    z-index: 20;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0px;
+    left: 0;
+}
+
+.menu-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(61,68,81);
+}
+.side-menu-link{
+    font-family:'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 30%;
+}
+.side-menu-link a{
+    text-decoration: none;
+    color: white;
+    
+}
+.side-menu-link a:hover{
+    color: orange;
+}

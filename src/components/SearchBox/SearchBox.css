@@ -1,0 +1,36 @@
+.searchBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 4.5rem;
+  padding-bottom: 30px;
+}
+.clearSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 30rem;
+  box-sizing: border-box;
+}
+
+#button {
+  height: 2.8rem;
+  width: 3rem;
+  background: #f0794f;
+  /* border: 0.5px solid rgb(82, 81, 81); */
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 724px) {
+  .searchBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* position: absolute; */
+    /* top: 120px; */
+    padding-bottom: 40px;
+  }
+}

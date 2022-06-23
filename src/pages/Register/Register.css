@@ -1,0 +1,64 @@
+
+.register {
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 100vg;
+    overflow: hidden;
+    /* padding: 150px 0px 150px 0px; */
+    /* background-color: chartreuse;  */
+}
+.register h1{
+    color: #7f7f7f
+}
+.register p{
+    color: black
+}
+
+.background-img {
+    width: 50%;
+}
+
+.background-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Register-form {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+@media only screen and (max-width: 768px){
+    .register{
+        display: inline;
+        width: 100vw;
+        height: 100vh;
+        float: none;
+        overflow: hidden;
+
+
+    }
+    .Register-form{
+        display: block;
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
+
+    }
+    .background-img img{
+        display: none;
+    }
+
+}
+
+.home{
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  

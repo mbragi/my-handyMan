@@ -1,0 +1,54 @@
+.artisan-form{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 18rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+  }
+  .artisan-form1{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 18rem;
+    margin-right: 1rem;
+  }
+  
+  .artisan-image img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      padding-top: 10px;
+  }
+  
+  .artisan-form p{
+      margin: 0.5rem;
+      text-align: center;
+  }
+  .artisan-form1 p{
+    margin: 0.5rem;
+    text-align: center;
+}
+  .artisan-btn{
+      justify-content: center;
+      padding-bottom: 6rem;
+      padding-top: 1.5rem;
+      margin-left: 1rem;
+     
+  }
+
+  .ars-upload-input{
+      margin-bottom: 0rem !important; 
+  }
+  .ars-upload-button{
+     margin-top: 0rem !important;
+     margin-bottom: 0rem !important;
+     margin-left: 12rem !important;
+  }
+  
+      @media screen and (max-width: 640px){
+          .submit-btn{
+              min-width: 17rem;
+              padding: 5rem;
+          }
+      }
+  

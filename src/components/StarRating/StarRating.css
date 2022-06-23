@@ -1,0 +1,15 @@
+#rating {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .on {
+    color: rgb(255, 238, 5);
+  }
+  .off {
+    color: #ccc;
+  }
+  
+  

@@ -1,0 +1,24 @@
+.responsive-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  }
+  .contact{
+    text-align: center;
+  }
+  .as{
+    width: 50%;
+  }
+  @media screen and (max-width:680px){
+    .as{
+      width: 80%;
+    }
+  }
+  .contact-btn{
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  

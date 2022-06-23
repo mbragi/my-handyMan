@@ -1,0 +1,51 @@
+.navbar{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(61,68,81);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+ .links{
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+    padding-top: 15px;
+ }
+.links a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-right: 5px;
+    text-decoration: none;
+    padding-bottom: 2px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.links a:hover{
+    color: orange;
+    padding-bottom: 2px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.push{
+    float: right;
+}
+.link{
+    color: white;
+    margin-top: auto;
+    margin-left: 6rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    float: left;
+}
+
+@media screen and (max-width: 1024px){
+ .links{
+        display: none;
+        margin: 0;
+ }
+ .link{
+     margin-left: 1.5rem;
+    }
+}
