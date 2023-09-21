@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import CardList from "../../components/CardList/CardList";
 import "./Homepage.css";
 import SearchBox from "../../components/SearchBox/SearchBox";
-
+import {handy} from "../../utils/handy"
 class Homepage extends Component {
   constructor() {
     super();
@@ -14,15 +14,8 @@ class Homepage extends Component {
     };
   }
   componentDidMount() {
-    fetch("https://guarded-wildwood-57519.herokuapp.com/artisans")
-      .then((response) => response.json())
-      .then((artisans) => {
-        this.setState({ handy: artisans });
-      })
-      .catch((err) => {
-        console.log(err);
-        this.setState({ handy: [] });
-      });
+        this.setState({ handy: handy });
+     
   }
 
   onValueChange = (value) => {
